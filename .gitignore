@@ -1,1 +1,39 @@
+# Virtual environment
 pixoo_env/
+
+# macOS system files
+._*
+
+# Claude AI files
+.claude/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Build artifacts
+build/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python specific
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
